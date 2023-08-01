@@ -1,5 +1,30 @@
 [
     {
+        "label": "*",
+        "importPath": "ems_action_keywords",
+        "description": "ems_action_keywords",
+        "isExtraImport": true,
+        "detail": "ems_action_keywords",
+        "documentation": {}
+    },
+    {
+        "label": "itertools",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "itertools",
+        "description": "itertools",
+        "detail": "itertools",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "ems_knowledge",
+        "description": "ems_knowledge",
+        "isExtraImport": true,
+        "detail": "ems_knowledge",
+        "documentation": {}
+    },
+    {
         "label": "sys",
         "kind": 6,
         "isExtraImport": true,
@@ -75,6 +100,141 @@
         "description": "roboflow",
         "isExtraImport": true,
         "detail": "roboflow",
+        "documentation": {}
+    },
+    {
+        "label": "cv_ecg_12_lead",
+        "kind": 5,
+        "importPath": "ems_action_keywords",
+        "description": "ems_action_keywords",
+        "peekOfCode": "cv_ecg_12_lead = [\"ECG monitor\",\"ECG 12 lead placement\"]\ncv_defibrillation_manual = [\"Defibrillator\",\"Defib pads attachment\"]\ncpr_manual = []\nadv_airway_capnography = []\nadmin_epi = []\n# respiratory distress\nresp_assist_ventilation_bvm_via_mask = [\"BVM Mask\", \"Placing BVM mask\"]\nresp_nebulizer_therapy = [\"Attaching nebulizer\", \"Nebulizer mask\"]\nresp_airway_adjunct = [\"Inserting airway adjunct\"]\nresp_endotracheal_tube = [\"Inserting endotracheal tube\", \"Endotracheal intubation\"]",
+        "detail": "ems_action_keywords",
+        "documentation": {}
+    },
+    {
+        "label": "cv_defibrillation_manual",
+        "kind": 5,
+        "importPath": "ems_action_keywords",
+        "description": "ems_action_keywords",
+        "peekOfCode": "cv_defibrillation_manual = [\"Defibrillator\",\"Defib pads attachment\"]\ncpr_manual = []\nadv_airway_capnography = []\nadmin_epi = []\n# respiratory distress\nresp_assist_ventilation_bvm_via_mask = [\"BVM Mask\", \"Placing BVM mask\"]\nresp_nebulizer_therapy = [\"Attaching nebulizer\", \"Nebulizer mask\"]\nresp_airway_adjunct = [\"Inserting airway adjunct\"]\nresp_endotracheal_tube = [\"Inserting endotracheal tube\", \"Endotracheal intubation\"]\nresp_administer_albuterol = [\"Administering albuterol\", \"Attaching metered dose inhaler\"]",
+        "detail": "ems_action_keywords",
+        "documentation": {}
+    },
+    {
+        "label": "cpr_manual",
+        "kind": 5,
+        "importPath": "ems_action_keywords",
+        "description": "ems_action_keywords",
+        "peekOfCode": "cpr_manual = []\nadv_airway_capnography = []\nadmin_epi = []\n# respiratory distress\nresp_assist_ventilation_bvm_via_mask = [\"BVM Mask\", \"Placing BVM mask\"]\nresp_nebulizer_therapy = [\"Attaching nebulizer\", \"Nebulizer mask\"]\nresp_airway_adjunct = [\"Inserting airway adjunct\"]\nresp_endotracheal_tube = [\"Inserting endotracheal tube\", \"Endotracheal intubation\"]\nresp_administer_albuterol = [\"Administering albuterol\", \"Attaching metered dose inhaler\"]\n# general",
+        "detail": "ems_action_keywords",
+        "documentation": {}
+    },
+    {
+        "label": "adv_airway_capnography",
+        "kind": 5,
+        "importPath": "ems_action_keywords",
+        "description": "ems_action_keywords",
+        "peekOfCode": "adv_airway_capnography = []\nadmin_epi = []\n# respiratory distress\nresp_assist_ventilation_bvm_via_mask = [\"BVM Mask\", \"Placing BVM mask\"]\nresp_nebulizer_therapy = [\"Attaching nebulizer\", \"Nebulizer mask\"]\nresp_airway_adjunct = [\"Inserting airway adjunct\"]\nresp_endotracheal_tube = [\"Inserting endotracheal tube\", \"Endotracheal intubation\"]\nresp_administer_albuterol = [\"Administering albuterol\", \"Attaching metered dose inhaler\"]\n# general\niv_access = [\"Inserting IV to arm\",\"Inserting IV to leg\"]",
+        "detail": "ems_action_keywords",
+        "documentation": {}
+    },
+    {
+        "label": "admin_epi",
+        "kind": 5,
+        "importPath": "ems_action_keywords",
+        "description": "ems_action_keywords",
+        "peekOfCode": "admin_epi = []\n# respiratory distress\nresp_assist_ventilation_bvm_via_mask = [\"BVM Mask\", \"Placing BVM mask\"]\nresp_nebulizer_therapy = [\"Attaching nebulizer\", \"Nebulizer mask\"]\nresp_airway_adjunct = [\"Inserting airway adjunct\"]\nresp_endotracheal_tube = [\"Inserting endotracheal tube\", \"Endotracheal intubation\"]\nresp_administer_albuterol = [\"Administering albuterol\", \"Attaching metered dose inhaler\"]\n# general\niv_access = [\"Inserting IV to arm\",\"Inserting IV to leg\"]",
+        "detail": "ems_action_keywords",
+        "documentation": {}
+    },
+    {
+        "label": "resp_assist_ventilation_bvm_via_mask",
+        "kind": 5,
+        "importPath": "ems_action_keywords",
+        "description": "ems_action_keywords",
+        "peekOfCode": "resp_assist_ventilation_bvm_via_mask = [\"BVM Mask\", \"Placing BVM mask\"]\nresp_nebulizer_therapy = [\"Attaching nebulizer\", \"Nebulizer mask\"]\nresp_airway_adjunct = [\"Inserting airway adjunct\"]\nresp_endotracheal_tube = [\"Inserting endotracheal tube\", \"Endotracheal intubation\"]\nresp_administer_albuterol = [\"Administering albuterol\", \"Attaching metered dose inhaler\"]\n# general\niv_access = [\"Inserting IV to arm\",\"Inserting IV to leg\"]",
+        "detail": "ems_action_keywords",
+        "documentation": {}
+    },
+    {
+        "label": "resp_nebulizer_therapy",
+        "kind": 5,
+        "importPath": "ems_action_keywords",
+        "description": "ems_action_keywords",
+        "peekOfCode": "resp_nebulizer_therapy = [\"Attaching nebulizer\", \"Nebulizer mask\"]\nresp_airway_adjunct = [\"Inserting airway adjunct\"]\nresp_endotracheal_tube = [\"Inserting endotracheal tube\", \"Endotracheal intubation\"]\nresp_administer_albuterol = [\"Administering albuterol\", \"Attaching metered dose inhaler\"]\n# general\niv_access = [\"Inserting IV to arm\",\"Inserting IV to leg\"]",
+        "detail": "ems_action_keywords",
+        "documentation": {}
+    },
+    {
+        "label": "resp_airway_adjunct",
+        "kind": 5,
+        "importPath": "ems_action_keywords",
+        "description": "ems_action_keywords",
+        "peekOfCode": "resp_airway_adjunct = [\"Inserting airway adjunct\"]\nresp_endotracheal_tube = [\"Inserting endotracheal tube\", \"Endotracheal intubation\"]\nresp_administer_albuterol = [\"Administering albuterol\", \"Attaching metered dose inhaler\"]\n# general\niv_access = [\"Inserting IV to arm\",\"Inserting IV to leg\"]",
+        "detail": "ems_action_keywords",
+        "documentation": {}
+    },
+    {
+        "label": "resp_endotracheal_tube",
+        "kind": 5,
+        "importPath": "ems_action_keywords",
+        "description": "ems_action_keywords",
+        "peekOfCode": "resp_endotracheal_tube = [\"Inserting endotracheal tube\", \"Endotracheal intubation\"]\nresp_administer_albuterol = [\"Administering albuterol\", \"Attaching metered dose inhaler\"]\n# general\niv_access = [\"Inserting IV to arm\",\"Inserting IV to leg\"]",
+        "detail": "ems_action_keywords",
+        "documentation": {}
+    },
+    {
+        "label": "resp_administer_albuterol",
+        "kind": 5,
+        "importPath": "ems_action_keywords",
+        "description": "ems_action_keywords",
+        "peekOfCode": "resp_administer_albuterol = [\"Administering albuterol\", \"Attaching metered dose inhaler\"]\n# general\niv_access = [\"Inserting IV to arm\",\"Inserting IV to leg\"]",
+        "detail": "ems_action_keywords",
+        "documentation": {}
+    },
+    {
+        "label": "iv_access",
+        "kind": 5,
+        "importPath": "ems_action_keywords",
+        "description": "ems_action_keywords",
+        "peekOfCode": "iv_access = [\"Inserting IV to arm\",\"Inserting IV to leg\"]",
+        "detail": "ems_action_keywords",
+        "documentation": {}
+    },
+    {
+        "label": "adult_cardiact_arrest_protocol",
+        "kind": 5,
+        "importPath": "ems_knowledge",
+        "description": "ems_knowledge",
+        "peekOfCode": "adult_cardiact_arrest_protocol = {\"cv_ecg_12_lead\":cv_ecg_12_lead,\n                                  \"cv_defibrillation_manual\":cv_defibrillation_manual,\n                                  \"cpr_manual\":cpr_manual,\n                                  \"iv_access\":iv_access,\n                                  \"adv_airway_capnography\":adv_airway_capnography,\n                                  \"admin_epi\":admin_epi\n                                  }\nrespiratory_distress_protocol = {\"resp_assist_ventilation_bvm_via_mask\":resp_assist_ventilation_bvm_via_mask,\n                                 \"resp_nebulizer_therapy\":resp_nebulizer_therapy,\n                                 \"resp_airway_adjunct\":resp_airway_adjunct,",
+        "detail": "ems_knowledge",
+        "documentation": {}
+    },
+    {
+        "label": "respiratory_distress_protocol",
+        "kind": 5,
+        "importPath": "ems_knowledge",
+        "description": "ems_knowledge",
+        "peekOfCode": "respiratory_distress_protocol = {\"resp_assist_ventilation_bvm_via_mask\":resp_assist_ventilation_bvm_via_mask,\n                                 \"resp_nebulizer_therapy\":resp_nebulizer_therapy,\n                                 \"resp_airway_adjunct\":resp_airway_adjunct,\n                                 \"resp_endotracheal_tube\":resp_endotracheal_tube,\n                                 \"resp_administer_albuterol\":resp_administer_albuterol,\n                                 \"iv_access\": iv_access}\nems_interventions = {\"adult_cardiact_arrest_protocol\":adult_cardiact_arrest_protocol,\n                     \"respiratory_distress_protocol\":respiratory_distress_protocol}",
+        "detail": "ems_knowledge",
+        "documentation": {}
+    },
+    {
+        "label": "ems_interventions",
+        "kind": 5,
+        "importPath": "ems_knowledge",
+        "description": "ems_knowledge",
+        "peekOfCode": "ems_interventions = {\"adult_cardiact_arrest_protocol\":adult_cardiact_arrest_protocol,\n                     \"respiratory_distress_protocol\":respiratory_distress_protocol}",
+        "detail": "ems_knowledge",
+        "documentation": {}
+    },
+    {
+        "label": "generate_labels",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def generate_labels(protocol):\n    return list(itertools.chain.from_iterable(list(ems_interventions.get(protocol).values())))",
+        "detail": "utils",
         "documentation": {}
     }
 ]
