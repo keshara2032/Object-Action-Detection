@@ -25,6 +25,60 @@
         "documentation": {}
     },
     {
+        "label": "cv2",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "cv2",
+        "description": "cv2",
+        "detail": "cv2",
+        "documentation": {}
+    },
+    {
+        "label": "mediapipe",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "mediapipe",
+        "description": "mediapipe",
+        "detail": "mediapipe",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "glob",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "glob",
+        "description": "glob",
+        "detail": "glob",
+        "documentation": {}
+    },
+    {
         "label": "sys",
         "kind": 6,
         "isExtraImport": true,
@@ -68,24 +122,6 @@
         "documentation": {}
     },
     {
-        "label": "cv2",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "cv2",
-        "description": "cv2",
-        "detail": "cv2",
-        "documentation": {}
-    },
-    {
-        "label": "numpy",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "numpy",
-        "description": "numpy",
-        "detail": "numpy",
-        "documentation": {}
-    },
-    {
         "label": "matplotlib.pyplot",
         "kind": 6,
         "isExtraImport": true,
@@ -107,7 +143,7 @@
         "kind": 5,
         "importPath": "ems_action_keywords",
         "description": "ems_action_keywords",
-        "peekOfCode": "cv_ecg_12_lead = [\"An ECG monitor\",\"ECG 12 lead placement\"]\ncv_defibrillation_manual = [\"Defibrillator\",\"Defib pads attachment\"]\ncpr_manual = []\nadv_airway_capnography = []\nadmin_epi = []\n# respiratory distress\nresp_assist_ventilation_bvm_via_mask = [\"BVM Mask\", \"Placing BVM mask on face\"]\nresp_nebulizer_therapy = [\"Attaching nebulizer\", \"Nebulizer mask\"]\nresp_airway_adjunct = [\"Inserting airway adjunct\"]\nresp_endotracheal_tube = [\"Inserting endotracheal tube\", \"Endotracheal intubation\"]",
+        "peekOfCode": "cv_ecg_12_lead = [\"An ECG monitor\",\"Attaching Twelve ECG leads on chest\"]\ncv_defibrillation_manual = [\"Defibrillator\",\"Attaching two Defib pads on chest\"]\ncpr_manual = []\nadv_airway_capnography = []\nadmin_epi = []\n# respiratory distress\nresp_assist_ventilation_bvm_via_mask = [\"BVM Mask\", \"Placing Oxygen mask on face\"]\nresp_nebulizer_therapy = [\"Attaching nebulizer\", \"Nebulizer mask\"]\nresp_airway_adjunct = [\"Inserting airway adjunct\"]\nresp_endotracheal_tube = [\"Inserting endotracheal tube\", \"Endotracheal intubation\"]",
         "detail": "ems_action_keywords",
         "documentation": {}
     },
@@ -116,7 +152,7 @@
         "kind": 5,
         "importPath": "ems_action_keywords",
         "description": "ems_action_keywords",
-        "peekOfCode": "cv_defibrillation_manual = [\"Defibrillator\",\"Defib pads attachment\"]\ncpr_manual = []\nadv_airway_capnography = []\nadmin_epi = []\n# respiratory distress\nresp_assist_ventilation_bvm_via_mask = [\"BVM Mask\", \"Placing BVM mask on face\"]\nresp_nebulizer_therapy = [\"Attaching nebulizer\", \"Nebulizer mask\"]\nresp_airway_adjunct = [\"Inserting airway adjunct\"]\nresp_endotracheal_tube = [\"Inserting endotracheal tube\", \"Endotracheal intubation\"]\nresp_administer_albuterol = [\"Administering albuterol\", \"Attaching metered dose inhaler\"]",
+        "peekOfCode": "cv_defibrillation_manual = [\"Defibrillator\",\"Attaching two Defib pads on chest\"]\ncpr_manual = []\nadv_airway_capnography = []\nadmin_epi = []\n# respiratory distress\nresp_assist_ventilation_bvm_via_mask = [\"BVM Mask\", \"Placing Oxygen mask on face\"]\nresp_nebulizer_therapy = [\"Attaching nebulizer\", \"Nebulizer mask\"]\nresp_airway_adjunct = [\"Inserting airway adjunct\"]\nresp_endotracheal_tube = [\"Inserting endotracheal tube\", \"Endotracheal intubation\"]\nresp_administer_albuterol = [\"Administering albuterol\", \"Attaching metered dose inhaler\"]",
         "detail": "ems_action_keywords",
         "documentation": {}
     },
@@ -125,7 +161,7 @@
         "kind": 5,
         "importPath": "ems_action_keywords",
         "description": "ems_action_keywords",
-        "peekOfCode": "cpr_manual = []\nadv_airway_capnography = []\nadmin_epi = []\n# respiratory distress\nresp_assist_ventilation_bvm_via_mask = [\"BVM Mask\", \"Placing BVM mask on face\"]\nresp_nebulizer_therapy = [\"Attaching nebulizer\", \"Nebulizer mask\"]\nresp_airway_adjunct = [\"Inserting airway adjunct\"]\nresp_endotracheal_tube = [\"Inserting endotracheal tube\", \"Endotracheal intubation\"]\nresp_administer_albuterol = [\"Administering albuterol\", \"Attaching metered dose inhaler\"]\n# general",
+        "peekOfCode": "cpr_manual = []\nadv_airway_capnography = []\nadmin_epi = []\n# respiratory distress\nresp_assist_ventilation_bvm_via_mask = [\"BVM Mask\", \"Placing Oxygen mask on face\"]\nresp_nebulizer_therapy = [\"Attaching nebulizer\", \"Nebulizer mask\"]\nresp_airway_adjunct = [\"Inserting airway adjunct\"]\nresp_endotracheal_tube = [\"Inserting endotracheal tube\", \"Endotracheal intubation\"]\nresp_administer_albuterol = [\"Administering albuterol\", \"Attaching metered dose inhaler\"]\n# general",
         "detail": "ems_action_keywords",
         "documentation": {}
     },
@@ -134,7 +170,7 @@
         "kind": 5,
         "importPath": "ems_action_keywords",
         "description": "ems_action_keywords",
-        "peekOfCode": "adv_airway_capnography = []\nadmin_epi = []\n# respiratory distress\nresp_assist_ventilation_bvm_via_mask = [\"BVM Mask\", \"Placing BVM mask on face\"]\nresp_nebulizer_therapy = [\"Attaching nebulizer\", \"Nebulizer mask\"]\nresp_airway_adjunct = [\"Inserting airway adjunct\"]\nresp_endotracheal_tube = [\"Inserting endotracheal tube\", \"Endotracheal intubation\"]\nresp_administer_albuterol = [\"Administering albuterol\", \"Attaching metered dose inhaler\"]\n# general\niv_access = [\"Inserting IV to arm\",\"Inserting IV to leg\"]",
+        "peekOfCode": "adv_airway_capnography = []\nadmin_epi = []\n# respiratory distress\nresp_assist_ventilation_bvm_via_mask = [\"BVM Mask\", \"Placing Oxygen mask on face\"]\nresp_nebulizer_therapy = [\"Attaching nebulizer\", \"Nebulizer mask\"]\nresp_airway_adjunct = [\"Inserting airway adjunct\"]\nresp_endotracheal_tube = [\"Inserting endotracheal tube\", \"Endotracheal intubation\"]\nresp_administer_albuterol = [\"Administering albuterol\", \"Attaching metered dose inhaler\"]\n# general\niv_access = [\"Inserting IV to arm\",\"Inserting IV to leg\"]",
         "detail": "ems_action_keywords",
         "documentation": {}
     },
@@ -143,7 +179,7 @@
         "kind": 5,
         "importPath": "ems_action_keywords",
         "description": "ems_action_keywords",
-        "peekOfCode": "admin_epi = []\n# respiratory distress\nresp_assist_ventilation_bvm_via_mask = [\"BVM Mask\", \"Placing BVM mask on face\"]\nresp_nebulizer_therapy = [\"Attaching nebulizer\", \"Nebulizer mask\"]\nresp_airway_adjunct = [\"Inserting airway adjunct\"]\nresp_endotracheal_tube = [\"Inserting endotracheal tube\", \"Endotracheal intubation\"]\nresp_administer_albuterol = [\"Administering albuterol\", \"Attaching metered dose inhaler\"]\n# general\niv_access = [\"Inserting IV to arm\",\"Inserting IV to leg\"]",
+        "peekOfCode": "admin_epi = []\n# respiratory distress\nresp_assist_ventilation_bvm_via_mask = [\"BVM Mask\", \"Placing Oxygen mask on face\"]\nresp_nebulizer_therapy = [\"Attaching nebulizer\", \"Nebulizer mask\"]\nresp_airway_adjunct = [\"Inserting airway adjunct\"]\nresp_endotracheal_tube = [\"Inserting endotracheal tube\", \"Endotracheal intubation\"]\nresp_administer_albuterol = [\"Administering albuterol\", \"Attaching metered dose inhaler\"]\n# general\niv_access = [\"Inserting IV to arm\",\"Inserting IV to leg\"]",
         "detail": "ems_action_keywords",
         "documentation": {}
     },
@@ -152,7 +188,7 @@
         "kind": 5,
         "importPath": "ems_action_keywords",
         "description": "ems_action_keywords",
-        "peekOfCode": "resp_assist_ventilation_bvm_via_mask = [\"BVM Mask\", \"Placing BVM mask on face\"]\nresp_nebulizer_therapy = [\"Attaching nebulizer\", \"Nebulizer mask\"]\nresp_airway_adjunct = [\"Inserting airway adjunct\"]\nresp_endotracheal_tube = [\"Inserting endotracheal tube\", \"Endotracheal intubation\"]\nresp_administer_albuterol = [\"Administering albuterol\", \"Attaching metered dose inhaler\"]\n# general\niv_access = [\"Inserting IV to arm\",\"Inserting IV to leg\"]",
+        "peekOfCode": "resp_assist_ventilation_bvm_via_mask = [\"BVM Mask\", \"Placing Oxygen mask on face\"]\nresp_nebulizer_therapy = [\"Attaching nebulizer\", \"Nebulizer mask\"]\nresp_airway_adjunct = [\"Inserting airway adjunct\"]\nresp_endotracheal_tube = [\"Inserting endotracheal tube\", \"Endotracheal intubation\"]\nresp_administer_albuterol = [\"Administering albuterol\", \"Attaching metered dose inhaler\"]\n# general\niv_access = [\"Inserting IV to arm\",\"Inserting IV to leg\"]",
         "detail": "ems_action_keywords",
         "documentation": {}
     },
@@ -235,6 +271,114 @@
         "description": "utils",
         "peekOfCode": "def generate_labels(protocol):\n    return list(itertools.chain.from_iterable(list(ems_interventions.get(protocol).values())))\n# protocol = \"adult_cardiact_arrest_protocol\"\n# print(generate_labels(protocol))",
         "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "extract_keypoints",
+        "kind": 2,
+        "importPath": "video_datagen",
+        "description": "video_datagen",
+        "peekOfCode": "def extract_keypoints(results):\n    if(len(results.multi_hand_landmarks) > 1):\n      lh = np.array([[res.x, res.y, res.z] for res in results.multi_hand_landmarks[0].landmark]).flatten() if results.multi_hand_landmarks[0] else np.zeros(21*3)\n      rh = np.array([[res.x, res.y, res.z] for res in results.multi_hand_landmarks[1].landmark]).flatten() if results.multi_hand_landmarks[1] else np.zeros(21*3)\n    else:\n      lh = np.array([[res.x, res.y, res.z] for res in results.multi_hand_landmarks[0].landmark]).flatten() if results.multi_hand_landmarks[0] else np.zeros(21*3)\n      rh = np.zeros(21*3)\n    return np.concatenate([ lh, rh])\ndef save_landmarks(landmarks,  path, intervention, trial):\n  df_path = os.path.join(path, intervention, trial)",
+        "detail": "video_datagen",
+        "documentation": {}
+    },
+    {
+        "label": "save_landmarks",
+        "kind": 2,
+        "importPath": "video_datagen",
+        "description": "video_datagen",
+        "peekOfCode": "def save_landmarks(landmarks,  path, intervention, trial):\n  df_path = os.path.join(path, intervention, trial)\n  print(df_path)\n  if not os.path.exists(df_path):\n    os.makedirs(df_path)\n  # print(landmarks)\n  if(intervention == 'oxygen-bvm'):\n    label = ['I0']*len(landmarks)\n  elif(intervention == 'defib-pads'):\n    label = ['I1']*len(landmarks)",
+        "detail": "video_datagen",
+        "documentation": {}
+    },
+    {
+        "label": "mp_drawing",
+        "kind": 5,
+        "importPath": "video_datagen",
+        "description": "video_datagen",
+        "peekOfCode": "mp_drawing = mp.solutions.drawing_utils\nmp_drawing_styles = mp.solutions.drawing_styles\nmp_hands = mp.solutions.hands\nmp_holistic = mp.solutions.holistic # Holistic model\ndef extract_keypoints(results):\n    if(len(results.multi_hand_landmarks) > 1):\n      lh = np.array([[res.x, res.y, res.z] for res in results.multi_hand_landmarks[0].landmark]).flatten() if results.multi_hand_landmarks[0] else np.zeros(21*3)\n      rh = np.array([[res.x, res.y, res.z] for res in results.multi_hand_landmarks[1].landmark]).flatten() if results.multi_hand_landmarks[1] else np.zeros(21*3)\n    else:\n      lh = np.array([[res.x, res.y, res.z] for res in results.multi_hand_landmarks[0].landmark]).flatten() if results.multi_hand_landmarks[0] else np.zeros(21*3)",
+        "detail": "video_datagen",
+        "documentation": {}
+    },
+    {
+        "label": "mp_drawing_styles",
+        "kind": 5,
+        "importPath": "video_datagen",
+        "description": "video_datagen",
+        "peekOfCode": "mp_drawing_styles = mp.solutions.drawing_styles\nmp_hands = mp.solutions.hands\nmp_holistic = mp.solutions.holistic # Holistic model\ndef extract_keypoints(results):\n    if(len(results.multi_hand_landmarks) > 1):\n      lh = np.array([[res.x, res.y, res.z] for res in results.multi_hand_landmarks[0].landmark]).flatten() if results.multi_hand_landmarks[0] else np.zeros(21*3)\n      rh = np.array([[res.x, res.y, res.z] for res in results.multi_hand_landmarks[1].landmark]).flatten() if results.multi_hand_landmarks[1] else np.zeros(21*3)\n    else:\n      lh = np.array([[res.x, res.y, res.z] for res in results.multi_hand_landmarks[0].landmark]).flatten() if results.multi_hand_landmarks[0] else np.zeros(21*3)\n      rh = np.zeros(21*3)",
+        "detail": "video_datagen",
+        "documentation": {}
+    },
+    {
+        "label": "mp_hands",
+        "kind": 5,
+        "importPath": "video_datagen",
+        "description": "video_datagen",
+        "peekOfCode": "mp_hands = mp.solutions.hands\nmp_holistic = mp.solutions.holistic # Holistic model\ndef extract_keypoints(results):\n    if(len(results.multi_hand_landmarks) > 1):\n      lh = np.array([[res.x, res.y, res.z] for res in results.multi_hand_landmarks[0].landmark]).flatten() if results.multi_hand_landmarks[0] else np.zeros(21*3)\n      rh = np.array([[res.x, res.y, res.z] for res in results.multi_hand_landmarks[1].landmark]).flatten() if results.multi_hand_landmarks[1] else np.zeros(21*3)\n    else:\n      lh = np.array([[res.x, res.y, res.z] for res in results.multi_hand_landmarks[0].landmark]).flatten() if results.multi_hand_landmarks[0] else np.zeros(21*3)\n      rh = np.zeros(21*3)\n    return np.concatenate([ lh, rh])",
+        "detail": "video_datagen",
+        "documentation": {}
+    },
+    {
+        "label": "mp_holistic",
+        "kind": 5,
+        "importPath": "video_datagen",
+        "description": "video_datagen",
+        "peekOfCode": "mp_holistic = mp.solutions.holistic # Holistic model\ndef extract_keypoints(results):\n    if(len(results.multi_hand_landmarks) > 1):\n      lh = np.array([[res.x, res.y, res.z] for res in results.multi_hand_landmarks[0].landmark]).flatten() if results.multi_hand_landmarks[0] else np.zeros(21*3)\n      rh = np.array([[res.x, res.y, res.z] for res in results.multi_hand_landmarks[1].landmark]).flatten() if results.multi_hand_landmarks[1] else np.zeros(21*3)\n    else:\n      lh = np.array([[res.x, res.y, res.z] for res in results.multi_hand_landmarks[0].landmark]).flatten() if results.multi_hand_landmarks[0] else np.zeros(21*3)\n      rh = np.zeros(21*3)\n    return np.concatenate([ lh, rh])\ndef save_landmarks(landmarks,  path, intervention, trial):",
+        "detail": "video_datagen",
+        "documentation": {}
+    },
+    {
+        "label": "directory",
+        "kind": 5,
+        "importPath": "video_datagen",
+        "description": "video_datagen",
+        "peekOfCode": "directory = './datasets/oxygen-bvm'\n# directory = './datasets/defib_pads_attachment'\nintervention = 'oxygen-bvm'\n# intervention = 'defib-pads'\nroot_path = f'./processed_data/'\nwith mp_hands.Hands(\n    model_complexity=0,\n    min_detection_confidence=0.5,\n    max_num_hands=2,\n    min_tracking_confidence=0.5) as hands:",
+        "detail": "video_datagen",
+        "documentation": {}
+    },
+    {
+        "label": "intervention",
+        "kind": 5,
+        "importPath": "video_datagen",
+        "description": "video_datagen",
+        "peekOfCode": "intervention = 'oxygen-bvm'\n# intervention = 'defib-pads'\nroot_path = f'./processed_data/'\nwith mp_hands.Hands(\n    model_complexity=0,\n    min_detection_confidence=0.5,\n    max_num_hands=2,\n    min_tracking_confidence=0.5) as hands:\n# with mp_holistic.Holistic(min_detection_confidence=0.5, min_tracking_confidence=0.5) as holistic:\n  # model = holistic",
+        "detail": "video_datagen",
+        "documentation": {}
+    },
+    {
+        "label": "root_path",
+        "kind": 5,
+        "importPath": "video_datagen",
+        "description": "video_datagen",
+        "peekOfCode": "root_path = f'./processed_data/'\nwith mp_hands.Hands(\n    model_complexity=0,\n    min_detection_confidence=0.5,\n    max_num_hands=2,\n    min_tracking_confidence=0.5) as hands:\n# with mp_holistic.Holistic(min_detection_confidence=0.5, min_tracking_confidence=0.5) as holistic:\n  # model = holistic\n  model = hands\n  # iterate over files in",
+        "detail": "video_datagen",
+        "documentation": {}
+    },
+    {
+        "label": "directory",
+        "kind": 5,
+        "importPath": "video_generator",
+        "description": "video_generator",
+        "peekOfCode": "directory = './datasets/oxygen-bvm'\nimgs=[]\nheight = 480\nwidth = 640\nfor trial,filename in enumerate(sorted(glob.iglob(f'{directory}/**/videodata/', recursive=True))):\n    print(filename)\n    imgs = []\n    for frame,imagepath in enumerate(sorted(glob.iglob(f'{filename}/**/*original.jpg', recursive=True),key=os.path.getmtime)):\n        imgs.append(cv2.rotate(cv2.imread(imagepath),cv2.ROTATE_180))\n    out = cv2.VideoWriter(f'{filename}newvideo.avi',cv2.VideoWriter_fourcc(*'DIVX'), 25, (width,height))",
+        "detail": "video_generator",
+        "documentation": {}
+    },
+    {
+        "label": "height",
+        "kind": 5,
+        "importPath": "video_generator",
+        "description": "video_generator",
+        "peekOfCode": "height = 480\nwidth = 640\nfor trial,filename in enumerate(sorted(glob.iglob(f'{directory}/**/videodata/', recursive=True))):\n    print(filename)\n    imgs = []\n    for frame,imagepath in enumerate(sorted(glob.iglob(f'{filename}/**/*original.jpg', recursive=True),key=os.path.getmtime)):\n        imgs.append(cv2.rotate(cv2.imread(imagepath),cv2.ROTATE_180))\n    out = cv2.VideoWriter(f'{filename}newvideo.avi',cv2.VideoWriter_fourcc(*'DIVX'), 25, (width,height))\n    for i in range(len(imgs)):\n        out.write(imgs[i])",
+        "detail": "video_generator",
+        "documentation": {}
+    },
+    {
+        "label": "width",
+        "kind": 5,
+        "importPath": "video_generator",
+        "description": "video_generator",
+        "peekOfCode": "width = 640\nfor trial,filename in enumerate(sorted(glob.iglob(f'{directory}/**/videodata/', recursive=True))):\n    print(filename)\n    imgs = []\n    for frame,imagepath in enumerate(sorted(glob.iglob(f'{filename}/**/*original.jpg', recursive=True),key=os.path.getmtime)):\n        imgs.append(cv2.rotate(cv2.imread(imagepath),cv2.ROTATE_180))\n    out = cv2.VideoWriter(f'{filename}newvideo.avi',cv2.VideoWriter_fourcc(*'DIVX'), 25, (width,height))\n    for i in range(len(imgs)):\n        out.write(imgs[i])\n    out.release()",
+        "detail": "video_generator",
         "documentation": {}
     }
 ]
